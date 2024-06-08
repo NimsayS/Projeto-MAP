@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta Médica</title>
+    <link rel="stylesheet" href="./css/hospital.css">
+</head>
+<body>
+    <div class="navbar-container">
+        <nav>
+            <a href="#">
+                <img src="" alt="Bility" class="logo"/>
+            </a>
+            <ul class="navbar-items">
+                <li><a href="./index.html">Início</a></li>
+                <li><a href="./hospital.html">Hospitais</a></li>
+                <li><a href="./consulta.html">Consulta</a></li>
+                <li><a href="./login.html" class="default-btn">Entrar</a></li>
+                <li><a href="./registrar.html" class="default-btn">Registrar-se</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="container">
+        <h1>Pesquisar Hospital</h1>
+        <form id="searchForm">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+
+            <button type="submit">Pesquisar</button>
+        </form>
+        <div id="result">
+            <!-- Resultados serão exibidos aqui -->
+        </div>
+    </div>
+</body>
+</html>

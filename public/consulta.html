@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta Médica</title>
+    <link rel="stylesheet" href="./css/consulta.css">
+</head>
+<body>
+    <div class="navbar-container">
+        <nav>
+            <a href="#">
+                <img src="img/upa-24-horas-logo-18DBB96055-seeklogo.com.png" alt="Bility" class="logo"/>
+            </a>
+            <ul class="navbar-items">
+                <li><a href="./index.html">Início</a></li>
+                <li><a href="./hospital.html">Hospitais</a></li>
+                <li><a href="./consulta.html">Consulta</a></li>
+                <li><a href="./login.html" class="default-btn">Entrar</a></li>
+                <li><a href="./registrar.html" class="default-btn">Registrar-se</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="container">
+        <h1>Pesquisar Consulta</h1>
+        <form id="searchForm">
+            <label for="id">ID da consulta:</label>
+            <input type="text" id="id" name="id" required>
+            
+            <label for="data">Data:</label>
+            <input type="text" id="data" name="id" required>
+
+            <button type="submit">Pesquisar</button>
+        </form>
+        <div id="result">
+            <!-- Resultados serão exibidos aqui -->
+        </div>
+    </div>
+</body>
+</html>
