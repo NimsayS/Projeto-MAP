@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar</title>
+    <link rel="stylesheet" href="./css/registrar.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="./img/UPAremovebg-preview (1) (1).png" alt="Cenário preto e cinza">
+        </div>
+        <div class="form-container">
+            <div class="form-header">
+                <p>Cadastro</p>
+            </div>
+            <div class="form-body">
+                <h1 class="form-title">Faça o Cadastro</h1>
+                
+                    <div class="box-input">
+                        <label for="name">Nome completo<span class="required-field">*</span></label>
+                        <input type="text" name="name" id="name" class="block" placeholder="Digite aqui seu nome completo" required />
+                    </div>
+                    <div class="box-input">
+                        <label for="rua">Rua<span class="required-field">*</span></label>
+                        <input type="text" name="endereco.rua" id="rua" class="block" placeholder="Digite sua Rua" required />
+                    </div>
+                    <div class="box-input">
+                        <label for="bairro">Bairro<span class="required-field">*</span></label>
+                        <input type="text" name="endereco.bairro" id="bairro" class="block" placeholder="Digite seu bairro" required />
+                    </div>
+                    <div class="box-input">
+                        <label for="numero">Número<span class="required-field">*</span></label>
+                        <input type="number" name="endereco.numero" id="numero" class="block" placeholder="Digite o número da sua residência" required />
+                    </div>
+                    <div class="box-input">
+                        <label for="complemento">Complemento<span class="required-field">*</span></label>
+                        <input type="text" name="endereco.complemento" id="complemento" class="block" placeholder="Digite um complemento" required />
+                    </div>
+                    <div class="box-input">
+                        <label for="city">Cidade<span class="required-field">*</span></label>
+                        <input type="text" name="endereco.cidade" id="city" class="block" placeholder="Digite sua cidade" required />
+                    </div>
+                    <div class="box-input">
+                        <label for="state">Estado<span class="required-field">*</span></label>
+                        <input type="text" name="endereco.estado" id="state" class="block" placeholder="Digite seu estado" required />
+                    </div>
+                    <div class="box-input">
+                        <label for="cep">CEP<span class="required-field">*</span></label>
+                        <input type="text" name="endereco.cep" id="cep" class="block" placeholder="Digite seu CEP" required />
+                    </div>
+                    <div class="box-input">
+                        <label for="telefone_tipo">Tipo de telefone<span class="required-field">*</span></label>
+                        <input type="text" name="telefone.tipo" id="telefone_tipo" class="block" placeholder="Digite o tipo de telefone" required />
+                    </div>
+                    <div class="box-input">
+                        <label for="telefone_numero">Número de telefone<span class="required-field">*</span></label>
+                        <input type="text" name="telefone.numero" id="telefone_numero" class="block" placeholder="Digite seu número de telefone" required />
+                    </div>
+                    <div class="box-input">
+                        <label for="birthday_date">Data de Nascimento<span class="required-field">*</span></label>
+                        <input type="date" name="birthday_date" id="birthday_date" class="block" required />
+                    </div>
+                    <div class="box-input">
+                        <label for="cpf">CPF<span class="required-field">*</span></label>
+                        <input type="text" name="cpf" id="cpf" class="block" placeholder="Digite seu CPF" required />
+                    </div>
+                    <input type="submit" value="Enviar" class="btn-submit">
+              
+            </div>
+        </div>
+    </div>
+</body>
+</html>
