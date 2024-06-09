@@ -1,0 +1,15 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "ocdb.app",
+            "port": 5052,
+            "driver": "PostgreSQL",
+            "name": "UPA",
+            "database": "db_42ek5yp4z",
+            "username": "user_42ek5yp4z",
+            "password": "p42ek5yp4z",
+            "connectionTimeout": 30
+        }
+    ]
+}
